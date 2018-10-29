@@ -1,0 +1,42 @@
+{
+  "name": "use-previous",
+  "version": "0.0.0",
+  "description": "React hook for remembering previous value.",
+  "main": "./dist/use-previous.cjs.js",
+  "module": "./dist/use-previous.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" || jest --env=node",
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
+    "preversion": "npm test",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andarist/use-previous.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andarist/use-previous/issues"
+  },
+  "homepage": "https://github.com/Andarist/use-previous#readme",
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "husky": "^1.1.0",
+    "jest": "^23.6.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3",
+    "react": "16.7.0-alpha.0",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3"
+  }
+}
