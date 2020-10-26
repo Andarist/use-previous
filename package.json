@@ -28,6 +28,9 @@
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0"
   },
+  "dependencies": {
+    "use-isomorphic-layout-effect": "^1.1.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-transform-modules-commonjs": "^7.2.0",
