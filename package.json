@@ -1,6 +1,6 @@
 {
   "name": "use-previous",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React hook for remembering previous value.",
   "main": "./dist/use-previous.cjs.js",
   "module": "./dist/use-previous.esm.js",
