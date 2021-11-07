@@ -4,6 +4,12 @@
   "description": "React hook for remembering previous value.",
   "main": "./dist/use-previous.cjs.js",
   "module": "./dist/use-previous.esm.js",
+  "exports": {
+    ".": {
+      "require": "./dist/use-previous.cjs.js",
+      "import": "./dist/use-previous.mjs"
+    }
+  },
   "types": "./types/index.d.ts",
   "files": [
     "dist",
